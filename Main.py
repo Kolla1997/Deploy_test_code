@@ -16,9 +16,9 @@ def getRandomString(length):
 
 def getRandomInt(min, max):
     """Generate a random integer between min and max"""
-    return random.randint(min, max)
+    print(random.randint(min, max))
 
 if __name__ == "__main__":
     testCall()
-    print(getRandomString(10))
-    print(getRandomInt(1, 10))
+    getRandomString(10)
+    getRandomInt(1, 10)
