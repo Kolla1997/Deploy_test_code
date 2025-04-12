@@ -12,7 +12,7 @@ def testCall():
 def getRandomString(length):
     """Generate a random string of fixed length """
     letters = string.ascii_letters
-    return ''.join(random.choice(letters) for i in range(length))
+    print(''.join(random.choice(letters) for i in range(length)))
 
 def getRandomInt(min, max):
     """Generate a random integer between min and max"""
