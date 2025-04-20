@@ -21,10 +21,6 @@ def getRandomInt(min, max):
     print(f"Random Integer: {random_int}")
     return random_int
 
-def getSquareOfNumber(num):
-    """Return the square of a number"""
-    print(num ** 2)
-
 def printProgressbar(iteration, total, prefix='', length=40, fill='█', printEnd='\r'):
     """Prints a progress bar in the console"""
     percent = ("{0:.1f}").format(100 * (iteration / float(total)))
@@ -34,6 +30,10 @@ def printProgressbar(iteration, total, prefix='', length=40, fill='█', printEn
     # Print New Line on Complete
     if iteration == total:
         print()
+
+def getSquareOfNumber(num):
+    """Return the square of a number"""
+    print(f"Get Square: {num ** 2}")
 
 if __name__ == "__main__":
     testCall()
