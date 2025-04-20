@@ -30,7 +30,7 @@ def printProgressbar(iteration, total, prefix='', length=40, fill='█', printEn
 
 def getSquareOfNumber(num):
     """Return the square of a number"""
-    print(num ** 2)
+    print(f"Get Square: {num ** 2}")
 
 if __name__ == "__main__":
     testCall()
