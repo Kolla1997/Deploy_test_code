@@ -18,6 +18,11 @@ def getRandomInt(min, max):
     """Generate a random integer between min and max"""
     print(random.randint(min, max))
 
+
+def getSquareOfNumber(num):
+    """Return the square of a number"""
+    print(num ** 2)
+
 if __name__ == "__main__":
     testCall()
     getRandomString(10)
