@@ -33,6 +33,14 @@ def printProgressbar(iteration, total, prefix='', length=40, fill='█', printEn
     if iteration == total:
         print()
 
+<<<<<<< Updated upstream
+=======
+
+def getSquareOfNumber(num):
+    """Return the square of a number"""
+    print(f"Squared : {num ** 2}")
+
+>>>>>>> Stashed changes
 if __name__ == "__main__":
     testCall()
     getRandomString(10)
