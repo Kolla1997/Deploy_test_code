@@ -22,3 +22,4 @@ if __name__ == "__main__":
     testCall()
     getRandomString(10)
     getRandomInt(1, 10)
+    getSquare(5)
